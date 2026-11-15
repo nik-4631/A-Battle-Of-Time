@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://2jvpwo8yiihn"]
+
+[ext_resource type="VideoStream" uid="uid://bnlit2d08hbm7" path="res://InShot_20261115_034346837.ogv" id="1_bxcgm"]
+
+[node name="Control" type="Control" unique_id=1741708261]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=1998731614]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stream = ExtResource("1_bxcgm")
+autoplay = true
+expand = true
+loop = true
